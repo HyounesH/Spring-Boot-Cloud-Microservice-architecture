@@ -29,13 +29,13 @@ user-service/target
 **/src/main/**/target/
 **/src/test/**/target/
 
-cloud-config-service/.mvn/wrapper/maven-wrapper.jar
-departement-service/.mvn/wrapper/maven-wrapper.jar
-gateway-service/.mvn/wrapper/maven-wrapper.jar
-hystrix-dashboard/.mvn/wrapper/maven-wrapper.jar
-service-registry/.mvn/wrapper/maven-wrapper.jar
-user-service/.mvn/wrapper/maven-wrapper.jar
-
+!cloud-config-service/.mvn/wrapper/maven-wrapper.jar
+!departement-service/.mvn/wrapper/maven-wrapper.jar
+!gateway-service/.mvn/wrapper/maven-wrapper.jar
+!hystrix-dashboard/.mvn/wrapper/maven-wrapper.jar
+!service-registry/.mvn/wrapper/maven-wrapper.jar
+!user-service/.mvn/wrapper/maven-wrapper.jar
+**/.mvn/wrapper/maven-wrapper.jar
 ### NetBeans ###
 **/nbproject/private/
 **/nbbuild/
